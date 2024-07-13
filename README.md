@@ -60,3 +60,4 @@ Example:
         "send_on_error": true
     }
 }
+```
