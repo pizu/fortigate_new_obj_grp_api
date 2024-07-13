@@ -1,4 +1,4 @@
-# FortiGate API Script
+# FortiGate API Script To Create Objects & Groups
 
 This script automates the process of creating objects and groups on FortiGate firewalls using the REST API. It reads configurations from a CSV file and supports adding objects to multiple groups. The script also provides detailed logging and can send email reports.
 
