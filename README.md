@@ -61,3 +61,24 @@ Example:
     }
 }
 ```
+
+## CSV File
+The CSV file should contain the objects and groups to be created. The file should have the following columns: **name**, **type**, **value**, and **groups**. The groups column can contain multiple groups separated by commas.
+
+## Example:
+```
+name,type,value,groups
+object1,subnet,192.168.1.0/24,group1,group2
+object2,fqdn,www.example.com,group1
+```
+
+# Usage
+### Command-Line Arguments
+- **firewall**: Name of the firewall to use (from config file)
+- **vdom**: Name of the VDOM to use
+- **csv_file**: Path to the CSV file
+- **--config**: Path to the configuration file (default: config.json)
+- **--debug**: Enable debug logging
+- **--no-throttle**: Disable API throttling
+- **--no-email**: Disable email report
+- **--no-print**: Disable printing report to console
