@@ -9,7 +9,7 @@ This script automates the process of creating objects and groups on FortiGate fi
 - Support for multiple firewalls and VDOMs.
 - Detailed logging with configurable log file names.
 - API throttling to avoid rate limits.
-- Email reports with configurable success/error settings.
+- Email reports with configurable both(Success & Error)/error settings.
 - Command-line arguments for flexibility.
 
 ## Requirements
