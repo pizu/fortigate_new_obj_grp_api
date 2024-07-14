@@ -68,8 +68,10 @@ The CSV file should contain the objects and groups to be created. The file shoul
 ## Example:
 ```
 name,type,value,groups
-object1,subnet,192.168.1.0/24,group1,group2
-object2,fqdn,www.example.com,group1
+name,type,value,groups
+webserver1,subnet,192.168.1.0/24,group1
+webserver2,fqdn,www.example.com,group1,group2
+database1,subnet,192.168.2.0/24,group2
 ```
 
 # Usage
@@ -82,3 +84,7 @@ object2,fqdn,www.example.com,group1
 - **--no-throttle**: Disable API throttling
 - **--no-email**: Disable email report
 - **--no-print**: Disable printing report to console
+
+```
+python fortigate_script.py firewall1 vdom1 objects.csv email@example.com both --config config.json --debug
+```
