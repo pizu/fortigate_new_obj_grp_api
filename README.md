@@ -85,6 +85,4 @@ database1,subnet,192.168.2.0/24,group2
 - **--no-email**: Disable email report
 - **--no-print**: Disable printing report to console
 
-```
-python fortigate_script.py firewall1 vdom1 objects.csv email@example.com both --config config.json --debug
-```
+**python New_Obj_Group.py firewall1 vdom1 objects.csv email@example.com both --config config.json --debug**
