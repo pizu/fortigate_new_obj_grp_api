@@ -138,7 +138,6 @@ In the above example, note that singlehost is specified **without** a subnet mas
 - **--no-email**: Disable email report
 - **--no-print**: Disable printing report to console
 
-<<<<<<< HEAD
 ```sh
 python fortigate_script.py firewall1 vdom1 objects.csv email@example.com both --config config.json --debug
 ```
@@ -151,4 +150,3 @@ python fortigate_script.py firewall1 vdom1 objects.csv email@example.com both
 ```
 =======
 **python New_Obj_Group.py firewall1 vdom1 objects.csv email@example.com both --config config.json --debug**
->>>>>>> 6e6971d0a6962cb2239a533b27cf0a11c3b3b43b
