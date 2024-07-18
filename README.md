@@ -137,12 +137,11 @@ In the above example, note that singlehost is specified **without** a subnet mas
 - **--no-throttle**: Disable API throttling
 - **--no-email**: Disable email report
 - **--no-print**: Disable printing report to console
-```
 
 
 ## Sending Reports via Email
 The script can send the report to a specified email address. The email settings are defined in configs/config.json under the email_settings section. To specify the email address and report type (both or error), use the following arguments:
 
-```
+```sh
 python fortigate_script.py firewall1 vdom1 objects.csv email@example.com both
 ```
