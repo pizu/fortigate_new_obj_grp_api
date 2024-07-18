@@ -1,0 +1,20 @@
+{
+    "logging": {
+        "enabled": true,
+        "level": "DEBUG",
+        "log_file": "logs/fortigate_script_logging_%Y-%m-%d_%H-%M-%S.log"
+    },
+    "api_throttle": {
+        "enabled": true,
+        "interval": 1.5
+    },
+    "email_settings": {
+        "smtp_server": "your.smtp.server",
+        "smtp_port": 25,
+        "sender_email": "script.erver@domain.com",
+        "subject": "Fortigate New Object(s) & Group(s) Scipt Report",
+        "send_on_success": true,
+        "send_on_error": true
+    },
+    "last_script_run": "2024-07-13 18:04:24"
+}

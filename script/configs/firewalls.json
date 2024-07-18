@@ -1,0 +1,23 @@
+{
+    "firewalls": [
+        {
+            "name": "Test_FW_1",
+            "ip": "192.168.1.1",
+            "api_token": "your_api_firewall_token_here",
+            "vdoms": [
+                "VDOM1",
+                "VDOM2",
+                "VDOM3"
+            ]
+        },
+        {
+            "name": "firewall2",
+            "ip": "192.168.1.2",
+            "api_token": "your_api_firewall_token_here",
+            "vdoms": [
+                "ABC",
+                "CDEF"
+            ]
+        }
+    ]
+}
